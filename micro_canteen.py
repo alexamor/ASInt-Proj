@@ -1,8 +1,16 @@
 from flask import Flask, request
 import requests
+import json
 
 app = Flask(__name__)
 
+class Meal:
+    def __init__(self, type, name):
+        self.type = type
+        self.name = name
+
+    def __str__(self):
+        return '(Type: ' + self.type + ' name: ' + self.name + ')'
 
 @app.route('/api/canteen', methods=['GET'])
 def get_fenix():
@@ -18,11 +26,25 @@ def get_fenix():
     # recebe os dados do fenix
     data = r.json()
 
-    print(data)
+    lunch = []
+    dinner = []
+
+    for m in data:
+        if m['day'] == day:
+            #print(m)
+            for me in m['meal']:
+                if me['type'] == 'Almoço':
+                    auxMeal = lunch
+                else:
+                    auxMeal = dinner
+
+                for pl in me['info']:
+                    auxMeal.append(Meal(pl['type'], pl['name']))
+
 
     return 'OK'
 
 
 if __name__ == '__main__':
-    app.debug = False
+    app.debug = True
     app.run()
