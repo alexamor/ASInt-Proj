@@ -1,7 +1,8 @@
 import json
 
-from flask import Flask, request
+from flask import Flask, request, render_template
 import requests
+from json2html import *
 
 app = Flask(__name__)
 
@@ -61,6 +62,8 @@ def redirect():
             print(r.status_code)
             response = r.json()
             print(response)
-            return json.dumps(r.json())
+            #render_template(json2html.convert(r))
+            return json2html.convert(response)
+            #return json.dumps(r.json())
         else:
             return 'Your request cannot be processed.'
