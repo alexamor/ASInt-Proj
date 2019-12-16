@@ -1,5 +1,4 @@
 import json
-
 from flask import Flask, request, render_template
 import requests
 from json2html import *
@@ -12,7 +11,7 @@ def redirect():
     # processa o tipo de pedido
     if request.method == 'POST':
 
-        service_id = request.form['service_id']
+        service_id = request.form['serviceId']
 
         # abre os serviços possíveis
         fh = open("microservices.txt", 'r')
@@ -25,14 +24,16 @@ def redirect():
         for line in lines:
             aux = line.split()
             if aux[0] == service_id:
-                url = "http://127.0.0.1:5000/api/" + aux[1]
+                print(aux[1])
+                port = str(5000 + int(service_id))
+                url = "http://127.0.0.1:" + port + "/api/" + aux[1].strip('\n')
                 found = True
                 break
 
         if found:
             data = request.form
-            requests.post(url, data=data)
-            return 'OK'
+            r = requests.post(url, data=data)
+            return json2html.convert(r.json())
         else:
             return 'Your request cannot be processed.'
     elif request.method == 'GET':
