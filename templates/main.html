@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Main</title>
 </head>
 <body>
+
+<h2>Rooms</h2>
+
+<form action="http://127.0.0.1:5000/redirect">
+    Id:
+    <input type="number" name="roomid">
+    <input type="hidden" name="serviceId" value="1">
+    <input type="submit">
+</form>
+
+<h2>Secretariat</h2>
+
+<form action="http://127.0.0.1:5000/redirect">
+    Id:
+    <input type="number" name="secrid">
+    <input type="hidden" name="serviceId" value="2">
+    <input type="submit">
+</form>
+
+<h2>Canteen</h2>
+
+<form action="http://127.0.0.1:5000/redirect">
+    Day:
+    <input type="date" name="day">
+    <input type="hidden" name="serviceId" value="3">
+    <input type="submit">
+</form>
+
+
 
 </body>
 </html>

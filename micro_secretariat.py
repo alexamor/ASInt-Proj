@@ -1,6 +1,15 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
+
+class Secretary:
+    def __init__(self, id, name, description, location, openingHours):
+        self.id = id
+        self.name = name
+        self.description = description
+        self.location = location
+        self.openingHours = openingHours
+
 
 
 @app.route('/api/secretariats', methods=['GET', 'POST'])
@@ -48,7 +57,11 @@ def get_secretariat():
 
         found = False
         # retirar o id da secretaria
-        id = request.args.get('id', '')
+        id = request.args.get('secrid', '')
+        name = ''
+        description = ''
+        location = ''
+        open_hours = ''
 
         # abrir o ficheiro e procurar a secretaria que se quer
         fh = open("secretariats.txt", 'r')
@@ -60,7 +73,7 @@ def get_secretariat():
                 if strings[1].rstrip('\n') == id:
                     found = True
             if found:
-                if strings[0] == 'name:':
+                if strings[0] == 'name':
                     name = strings[1].rstrip('\n')
                     print(name)
                 elif strings[0] == 'description':
@@ -73,6 +86,12 @@ def get_secretariat():
                     open_hours = strings[1].rstrip('\n')
                     print(open_hours)
         fh.close()
+
+        if found:
+            return jsonify(Name=name,Description=description, Location=location, OpeningHours=open_hours)
+        else:
+            return jsonify(error='missing')
+
 
     return 'OK'
 
