@@ -16,8 +16,7 @@ class Secretary:
 def get_secretariat():
     if request.method == 'POST':
 
-        # retirar o id que se quer colocar
-        id_post = request.form['id']
+        # parametros que se vao colocar
         name = request.form['name']
         description = request.form['description']
         location = request.form['location']
@@ -34,14 +33,13 @@ def get_secretariat():
         for line in lines:
             strings = line.split(": ")
             if strings[0] == 'id':
-                if strings[1].rstrip('\n') == id_post:
-                    return 'Secretariat already inserted'
+                id = int(strings[1].rstrip('\n')) + 1
 
         fh.close()
 
         fh = open("secretariats.txt", 'a')
         newLines = []
-        newLines.append("id: " + id_post + '\n')
+        newLines.append("id: " + str(id) + '\n')
         newLines.append("name: " + name + '\n')
         newLines.append("description: " + description + '\n')
         newLines.append("location: " + location + '\n')
@@ -51,7 +49,7 @@ def get_secretariat():
 
         fh.close()
 
-        return 'Secretariat inserted!'
+        return jsonify(id=id, name=name, description=description, location=location, openingHours=opening_hours)
 
     elif request.method == 'GET':
 
