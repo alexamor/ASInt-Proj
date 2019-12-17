@@ -17,7 +17,9 @@ def canteen():
 def rooms():
     return render_template('rooms.html')
 
-
+@app.route('/qr')
+def qr():
+    return render_template('qr.html')
 
 
 if __name__ == '__main__':
