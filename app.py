@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, redirect
+from flask import Flask, render_template, request, jsonify, redirect, session
 import requests
 
 redirect_uri = "http://127.0.0.1:8000/userAuth" # this is the address of the page on this app
@@ -9,10 +9,11 @@ clientSecret = "rcub4Vdgb20G+14SbCKdktzN8pmP8xW/40OxvQSg0Mxo8lcsGQl1sOfflV0Vuhgj
 fenixLoginpage= "https://fenix.tecnico.ulisboa.pt/oauth/userdialog?client_id=%s&redirect_uri=%s"
 fenixacesstokenpage = 'https://fenix.tecnico.ulisboa.pt/oauth/access_token'
 
-loginName = False
-userToken = None
+loginName = []
+userToken = []
 code = False
 app = Flask(__name__)
+app.secret_key = "ASINT"
 
 
 @app.route('/')
@@ -36,11 +37,13 @@ def rooms():
 def qr():
     return render_template('qr.html')
 
+######### FENIX LOGIN #################
+
 @app.route('/private')
 def private_page():
     #this page can only be accessed by a authenticated username
 
-    if loginName == False:
+    if session.get('token') is None:
         #if the user is not authenticated
 
         redPage = fenixLoginpage % (client_id, redirect_uri)
@@ -48,17 +51,26 @@ def private_page():
         return redirect(redPage)
     else:
         #if the user ir authenticated
-        print(userToken)
+        print(session.get('token'))
 
         #we can use the userToken to access the fenix
 
-        params = {'access_token': userToken}
+        params = {'access_token': session.get('token')}
         resp = requests.get("https://fenix.tecnico.ulisboa.pt/api/fenix/v1/person", params = params)
 
         if (resp.status_code == 200):
             r_info = resp.json()
             print( r_info)
-            return render_template("privPage.html", username=loginName, name=r_info['name'])
+
+            i= 0
+            for x in userToken:
+                if x == session.get('token'):
+                    break
+                i += 1
+
+            istid = loginName[i]
+
+            return render_template("privPage.html", username=istid, name=r_info['name'])
         else:
             return "oops"
 
@@ -89,9 +101,12 @@ def userAuthenticated():
 
         # we store it
         global loginName
-        loginName = r_info['username']
+        loginName.append(r_info['username'])
         global userToken
-        userToken = r_token['access_token']
+        userToken.append(r_token['access_token'])
+
+        session['key'] = r_token['access_token']
+        session['token'] = r_token['access_token']
 
         #now the user has done the login
         return jsonify(r_info)
@@ -103,7 +118,14 @@ def userAuthenticated():
 
 @app.route('/admin')
 def admin():
-    return render_template("appPage.html", username=loginName)
+    i = 0
+    for x in userToken:
+        if x == session.get('token'):
+            break
+        i += 1
+
+    istid = loginName[i]
+    return render_template("appPage.html", username=istid)
 
 if __name__ == '__main__':
     app.run()

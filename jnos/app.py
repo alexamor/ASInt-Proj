@@ -9,7 +9,7 @@ import requests
 # FENIX -> Pessoal - Gerir Aplicações -> criar
 #https://fenixedu.org/dev/tutorials/use-fenixedu-api-in-your-application/ (Step1)
 
-redirect_uri = "http://127.0.0.1:5000/userAuth" # this is the address of the page on this app
+redirect_uri = "http://127.0.0.1:8000/userAuth" # this is the address of the page on this app
 
 client_id= "570015174623373" # copy value from the app registration
 clientSecret = "rcub4Vdgb20G+14SbCKdktzN8pmP8xW/40OxvQSg0Mxo8lcsGQl1sOfflV0Vuhgj4Qknmg/wmE+eCdE/TmteXA==" # copy value from the app registration
