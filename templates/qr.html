@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>QR Scanner Demo</title>
+    <style type="text/css">
+
+    </style>
+   <link rel="stylesheet" href="/static/jquery-ui.css"> </link>
+    <script src="/static/jquery.js"></script>
+    <script src="/static/jquery-ui.js"></script>
 </head>
 <body>
+
 <style>
     canvas {
         display: none;
@@ -46,6 +53,10 @@
 <input type="file" id="file-selector">
 <b>Detected QR code: </b>
 <span id="file-qr-result">None</span>
+<div id="response">(this is where the text will go)</div>
+
+
+
 
 <script type="module">
     import QrScanner from '/static/qr-scanner.min.js';
@@ -58,12 +69,65 @@
     const fileSelector = document.getElementById('file-selector');
     const fileQrResult = document.getElementById('file-qr-result');
 
+
+
+
     function setResult(label, result) {
         label.textContent = result;
         camQrResultTimestamp.textContent = new Date().toString();
         label.style.color = 'teal';
         clearTimeout(label.highlightTimeout);
         label.highlightTimeout = setTimeout(() => label.style.color = 'inherit', 100);
+
+
+        $ (document).ready(function () {
+            console.log(result);
+
+            // ##### Decode qr code result
+            var auxResult = result.toString().split("\n");
+
+            var data = [];
+            for(var i=0; i< auxResult.length; i++){
+                var attributes = auxResult[i].split('-');
+                data[i] = [];
+
+                data[i][0] = attributes[0];
+                data[i][1] = attributes[1];
+            }
+            var auxData = '';
+            for(var i = 0; i < data.length; i++){
+                if(i==0)
+                    auxData += data[i][0];
+                else
+                    auxData += '&' +data[i][0];
+
+                auxData += '=' + data[i][1];
+
+            }
+            //data = JSON.stringify(auxData);
+            console.log(data);
+
+            $("#divDestiny").html("waiting");
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:5000/redirect",
+                dataType: "html",
+                cache: false,
+                contentType: "application/json",
+                data: auxData,
+                success: function (dataResponse) {
+                    $("#response").html(dataResponse);
+                },
+                error: function(xhr, status, error) {
+                  var error1 = eval("(" + xhr.responseText + ")");
+                  console.log(error1.Message);
+                  console.log(geturl.getAllResponseHeaders());
+                  alert("error!"+ geturl.getAllResponseHeaders());
+}
+            })
+
+        });
+
     }
 
     // ####### Web Cam Scanning #######
@@ -90,5 +154,8 @@
     });
 
 </script>
+
+
+
 </body>
 </html>

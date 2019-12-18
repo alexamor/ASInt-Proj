@@ -1,12 +1,16 @@
 import json
 from flask import Flask, request, render_template
+from flask_cors import CORS, cross_origin
 import requests
 from json2html import *
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route('/redirect', methods=['POST', 'GET'])
+@cross_origin()
 def redirect():
     # processa o tipo de pedido
     if request.method == 'POST':
@@ -63,7 +67,7 @@ def redirect():
             print(r.status_code)
             response = r.json()
             print(response)
-            #render_template(json2html.convert(r))
+            # render_template(json2html.convert(r))
             return json2html.convert(response)
             #return json.dumps(r.json())
         else:
