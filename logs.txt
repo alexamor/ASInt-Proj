@@ -1,0 +1,6 @@
+Type: login Fenix  id: Sofia Alexandra Carlos Salgueiro  time: 2019-12-19 16:39:40.275198
+Type: login Fenix  id: Sofia Alexandra Carlos Salgueiro  time: 2019-12-19 16:41:23.567214
+Type: GET Request microservice secretariats  id: -  time: 2019-12-19 16:41:38.697448
+Type: GET Request microservice canteen  id: -  time: 2019-12-19 16:41:47.593105
+Type: GET Request microservice rooms  id: -  time: 2019-12-19 16:41:53.121949
+Type: login Fenix  id: Alexandre Vieira Filipe  time: 2019-12-19 16:42:47.625989

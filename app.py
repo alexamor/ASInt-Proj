@@ -1,6 +1,9 @@
 import random
+from datetime import datetime
+
 from flask import Flask, render_template, request, jsonify, redirect, session, json
 import requests
+
 
 class User:
     def __init__(self, name, photo, token):
@@ -18,6 +21,7 @@ clientSecret = "rcub4Vdgb20G+14SbCKdktzN8pmP8xW/40OxvQSg0Mxo8lcsGQl1sOfflV0Vuhgj
 fenixLoginpage= "https://fenix.tecnico.ulisboa.pt/oauth/userdialog?client_id=%s&redirect_uri=%s"
 fenixacesstokenpage = 'https://fenix.tecnico.ulisboa.pt/oauth/access_token'
 
+
 #loginName = []
 #userToken = []
 userList = []
@@ -28,14 +32,17 @@ app.secret_key = "ASINT"
 
 @app.route('/')
 def hello_world():
+    addLog("Access main page", "-")
     return render_template('main.html')
 
 @app.route('/add_secretariat')
 def add_secretariat():
+    addLog("Add secretariat", "-")
     return render_template('add_secretariat.html')
 
 @app.route('/edit_secretariat', methods=['GET', 'POST'])
 def edit_secretariat():
+    addLog("Edit secretariat", "-")
     fh = open("secretariats.txt", 'r')
 
     lines = fh.readlines()
@@ -62,30 +69,47 @@ def rooms():
 
 @app.route('/qr')
 def qr():
-    return render_template('qr.html')
+    if session.get('token') is None:
+        redPage = fenixLoginpage % (client_id, redirect_uri)
+        # the app redirects the user to the FENIX login page
+        return redirect(redPage)
+    else:
+        return render_template('qr.html')
 
 ######### FENIX LOGIN #################
 @app.route('/readsecret', methods=['POST', 'GET'])
 def readsecret():
-    if request.method == 'POST':
-        selSecret = request.form['secret']
-        #print("sel: " + selSecret + "  type:  " + str(type(selSecret)))
-        friend = None
-
-        #procura o segredo na lista de utilizadores
-        for x in userList:
-            if x.secret == int(selSecret):
-                #print("x.secret: " + str(x.secret) + "  type:  " + str(type(x.secret)))
-                friend = x
-                # atualiza a estrutura da outra pessoa com o token de quem procurou pelo segredo, para ela poder
-                # ver a informação
-                friend.viewer = session.get('token')
-                return render_template('showUser.html', name=friend.name, photo=friend.photo)
-
-        return "Secret not found"
-
+    if session.get('token') is None:
+        redPage = fenixLoginpage % (client_id, redirect_uri)
+        # the app redirects the user to the FENIX login page
+        return redirect(redPage)
     else:
-        return render_template('readsecret.html')
+        if request.method == 'POST':
+            selSecret = request.form['secret']
+            #print("sel: " + selSecret + "  type:  " + str(type(selSecret)))
+            friend = None
+
+            for x in userList:
+                if x.token == session.get("token"):
+                    me = x
+                    break
+
+            addLog("Read secret", me.name)
+
+            #procura o segredo na lista de utilizadores
+            for x in userList:
+                if x.secret == int(selSecret):
+                    #print("x.secret: " + str(x.secret) + "  type:  " + str(type(x.secret)))
+                    friend = x
+                    # atualiza a estrutura da outra pessoa com o token de quem procurou pelo segredo, para ela poder
+                    # ver a informação
+                    friend.viewer = session.get('token')
+                    return render_template('showUser.html', name=friend.name, photo=friend.photo)
+
+            return "Secret not found"
+
+        else:
+            return render_template('readsecret.html')
 
 @app.route('/getsecret', methods=['GET', 'POST'])
 def getsecret():
@@ -114,6 +138,8 @@ def getsecret():
                 if x.token == session.get('token'):
                     me = x
                     break
+
+            addLog("get secret", me.name)
 
             if me.viewer is None:
                 return ""
@@ -147,7 +173,7 @@ def private_page():
 
         if (resp.status_code == 200):
             r_info = resp.json()
-            print( r_info)
+            print(r_info)
 
             #i= 0
             for x in userList:
@@ -190,10 +216,9 @@ def userAuthenticated():
         # we store it
         global userList
         userList.append(User(r_info['displayName'], r_info['photo']['data'], r_token['access_token']))
-        #global loginName
-        #loginName.append(r_info['username'])
-        #global userToken
-        #userToken.append(r_token['access_token'])
+
+        ### ADD LOG ###
+        addLog("login Fenix", r_info['displayName'])
 
         session['key'] = r_token['access_token']
         session['token'] = r_token['access_token']
@@ -218,6 +243,14 @@ def admin():
 
     #istid = loginName[i]
     return render_template("appPage.html", username=istid)
+
+
+def addLog(type, id):
+    fh = open("logs.txt", 'a')
+    auxString = "Type: " + type + "  id: " + id + "  time: " + str(datetime.now()) + "\n"
+    fh.write(auxString)
+    fh.close()
+
 
 if __name__ == '__main__':
     app.run()
