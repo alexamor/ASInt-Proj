@@ -83,6 +83,6 @@ def redirect():
 
 def addLog(type, id):
     fh = open("logs.txt", 'a')
-    auxString = "Type: " + type + "  id: " + id + "  time: " + str(datetime.now()) + "\n"
+    auxString = "Type: " + type + ":  id: " + id + ":  time: " + str(datetime.now()) + "\n"
     fh.write(auxString)
     fh.close()

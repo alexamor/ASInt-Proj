@@ -3,6 +3,7 @@ from datetime import datetime
 
 from flask import Flask, render_template, request, jsonify, redirect, session, json
 import requests
+from json2html import json2html
 
 
 class User:
@@ -34,6 +35,24 @@ app.secret_key = "ASINT"
 def hello_world():
     addLog("Access main page", "-")
     return render_template('main.html')
+
+@app.route('/logs')
+def showLogs():
+    fh = open('logs.txt', 'r')
+    lines = fh.readlines()
+
+    aux = {}
+    auxList = []
+    for line in lines:
+        auxLine = line.split(': ')
+        print(line)
+        print(auxLine)
+        aux['type'] = auxLine[1]
+        aux['id'] = auxLine[3]
+        aux['time'] = auxLine[5]
+        auxList.append(aux.copy())
+    return json2html.convert(json.dumps(auxList))
+    #return render_template('logs.html', logs = lines)
 
 @app.route('/add_secretariat')
 def add_secretariat():
@@ -247,7 +266,7 @@ def admin():
 
 def addLog(type, id):
     fh = open("logs.txt", 'a')
-    auxString = "Type: " + type + "  id: " + id + "  time: " + str(datetime.now()) + "\n"
+    auxString = "Type: " + type + ":  id: " + id + ":  time: " + str(datetime.now()) + "\n"
     fh.write(auxString)
     fh.close()
 

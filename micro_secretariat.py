@@ -1,4 +1,5 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, json
+from fileinput import FileInput
 
 app = Flask(__name__)
 
@@ -17,37 +18,65 @@ def get_secretariat():
     if request.method == 'POST':
 
         # parametros que se vao colocar
+        id = request.form['id']
         name = request.form['name']
         description = request.form['description']
         location = request.form['location']
         opening_hours = request.form['open_hours']
-        # print(description)
-        # print(id)
-        # print(name)
-        # print(location)
-        # print(opening_hours)
+        print(description)
+        print(id)
+        print(name)
+        print(location)
+        print(opening_hours)
 
         # abrir o ficheiro e escrever, se ainda não existir o id
         fh = open("secretariats.txt", 'r')
+        found = False
         lines = fh.readlines()
         for line in lines:
             strings = line.split(": ")
             if strings[0] == 'id':
-                id = int(strings[1].rstrip('\n')) + 1
+                if(strings[1] == id):
+                    found = True
+                else:
+                    auxid = int(strings[1].rstrip('\n')) + 1
 
         fh.close()
 
-        fh = open("secretariats.txt", 'a')
-        newLines = []
-        newLines.append("id: " + str(id) + '\n')
-        newLines.append("name: " + name + '\n')
-        newLines.append("description: " + description + '\n')
-        newLines.append("location: " + location + '\n')
-        newLines.append("opening hours: " + opening_hours + '\n')
+        # caso seja adicionar uma secretariat
+        if not found:
+            fh = open("secretariats.txt", 'a')
+            newLines = []
+            newLines.append("id: " + str(auxid) + '\n')
+            newLines.append("name: " + name + '\n')
+            newLines.append("description: " + description + '\n')
+            newLines.append("location: " + location + '\n')
+            newLines.append("opening hours: " + opening_hours + '\n')
 
-        fh.writelines(newLines)
+            fh.writelines(newLines)
 
-        fh.close()
+            fh.close()
+            id = auxid
+        else:
+            foundLine = False
+
+            with FileInput(files=['secretariats.txt'], inplace=True) as f:
+                for line in f:
+                    auxLine = line.split(': ')
+                    if auxLine[0] == 'id' and auxLine[1] == id:
+                        foundLine = True
+                    elif foundLine == True:
+                        if auxLine[0] == 'name':
+                            print("name: " + name)
+                        elif auxLine[0] == 'location':
+                            print("location: " + location)
+                        elif auxLine[0] == 'description':
+                            print("description: "+ description)
+                        elif auxLine[0] == 'opening hours':
+                            print("opening hours: " + opening_hours )
+                            break
+
+
 
         return jsonify(id=id, name=name, description=description, location=location, openingHours=opening_hours)
 

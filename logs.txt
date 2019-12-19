@@ -1,6 +1,31 @@
-Type: login Fenix  id: Sofia Alexandra Carlos Salgueiro  time: 2019-12-19 16:39:40.275198
-Type: login Fenix  id: Sofia Alexandra Carlos Salgueiro  time: 2019-12-19 16:41:23.567214
-Type: GET Request microservice secretariats  id: -  time: 2019-12-19 16:41:38.697448
-Type: GET Request microservice canteen  id: -  time: 2019-12-19 16:41:47.593105
-Type: GET Request microservice rooms  id: -  time: 2019-12-19 16:41:53.121949
-Type: login Fenix  id: Alexandre Vieira Filipe  time: 2019-12-19 16:42:47.625989
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-19 16:39:40.275198
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-19 16:41:23.567214
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-19 16:41:38.697448
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-19 16:41:47.593105
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-19 16:41:53.121949
+Type: login Fenix:  id: Alexandre Vieira Filipe:  time: 2019-12-19 16:42:47.625989
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-19 17:55:52.822255
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-19 17:56:07.800364
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:00:18.192411
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:13:24.506239
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:14:10.170064
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:14:18.051031
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:15:43.687829
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:15:53.525577
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:16:45.418104
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:16:51.093346
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:17:42.225977
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:17:48.961814
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:19:43.424869
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:20:02.077332
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:20:36.797950
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:20:40.051515
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:20:47.507923
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:22:19.874470
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:22:37.627722
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:23:09.916407
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:23:25.471304
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:26:11.459107
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:26:19.561468
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:28:00.707937
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:28:08.415665
