@@ -52,12 +52,12 @@ def qr():
 def readsecret():
     if request.method == 'POST':
         selSecret = request.form['secret']
-        print("sel: " + selSecret + "  type:  " + type(selSecret))
+        #print("sel: " + selSecret + "  type:  " + str(type(selSecret)))
         friend = None
 
         for x in userList:
             if x.secret == int(selSecret):
-                print("x.secret: " + x.secret + "  type:  " + type(x.secret))
+                #print("x.secret: " + str(x.secret) + "  type:  " + str(type(x.secret)))
                 friend = x
                 return render_template('showUser.html', name=friend.name, photo=friend.photo)
 
