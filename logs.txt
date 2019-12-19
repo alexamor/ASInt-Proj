@@ -29,3 +29,39 @@ Type: Edit secretariat:  id: -:  time: 2019-12-19 18:26:11.459107
 Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:26:19.561468
 Type: Edit secretariat:  id: -:  time: 2019-12-19 18:28:00.707937
 Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:28:08.415665
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:29:19.724321
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:29:28.082661
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:31:31.870408
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:31:38.225425
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:32:57.382023
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:33:00.303594
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:33:11.324508
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:34:35.677304
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:34:43.001528
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:35:18.033790
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:35:26.199171
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:37:06.878940
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:37:22.856143
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:38:46.265880
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:39:02.713286
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:41:07.267391
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:41:17.059451
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:41:22.609851
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:41:35.169329
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:42:00.687838
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:42:20.790144
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:49:19.127717
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:49:27.449256
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:49:44.603032
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:50:19.200764
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:50:25.394402
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:50:29.881519
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:50:35.236748
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:50:50.643649
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:50:59.506348
+Type: Edit secretariat:  id: -:  time: 2019-12-19 18:51:22.500525
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:51:28.162487
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:52:52.988330
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:53:12.630300
+Type: Add secretariat:  id: -:  time: 2019-12-19 18:53:29.716158
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:53:35.815037

@@ -24,22 +24,30 @@ def get_secretariat():
         location = request.form['location']
         opening_hours = request.form['open_hours']
         print(description)
-        print(id)
+        print(id + str(type(id)))
         print(name)
         print(location)
         print(opening_hours)
+
+        auxid=0
 
         # abrir o ficheiro e escrever, se ainda não existir o id
         fh = open("secretariats.txt", 'r')
         found = False
         lines = fh.readlines()
         for line in lines:
+            print("line   " + line)
             strings = line.split(": ")
             if strings[0] == 'id':
-                if(strings[1] == id):
+                print(strings[1].rstrip('\n'))
+                print(id)
+                if strings[1].rstrip('\n') == id:
+                    print("FOUND" + strings[1].rstrip('\n'))
                     found = True
+                    break
                 else:
                     auxid = int(strings[1].rstrip('\n')) + 1
+                    found = False
 
         fh.close()
 
@@ -59,22 +67,31 @@ def get_secretariat():
             id = auxid
         else:
             foundLine = False
+            fh = open("secretariats.txt","r")
 
-            with FileInput(files=['secretariats.txt'], inplace=True) as f:
-                for line in f:
-                    auxLine = line.split(': ')
-                    if auxLine[0] == 'id' and auxLine[1] == id:
-                        foundLine = True
-                    elif foundLine == True:
-                        if auxLine[0] == 'name':
-                            print("name: " + name)
-                        elif auxLine[0] == 'location':
-                            print("location: " + location)
-                        elif auxLine[0] == 'description':
-                            print("description: "+ description)
-                        elif auxLine[0] == 'opening hours':
-                            print("opening hours: " + opening_hours )
-                            break
+            lines = fh.readlines()
+
+            fh.close()
+
+
+            fh = open("secretariats.txt", "w")
+            for line in lines:
+                auxLine = line.split(': ')
+                if(auxLine[0] == 'id' and auxLine[1].rstrip('\n') == id):
+                    foundLine = True
+                    fh.write(line)
+                if foundLine:
+                    if auxLine[0] == 'name':
+                        fh.write('name: ' + name + '\n')
+                    elif auxLine[0] == 'location':
+                        fh.write('location: ' + location + '\n')
+                    elif auxLine[0] == 'description':
+                        fh.write('description: ' + description + '\n')
+                    elif auxLine[0] == 'opening hours':
+                        fh.write('opening hours: ' + opening_hours + '\n')
+                        foundLine = False
+                else:
+                    fh.write(line)
 
 
 
