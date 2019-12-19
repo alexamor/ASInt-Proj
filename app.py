@@ -116,7 +116,7 @@ def getsecret():
                     break
 
             if me.viewer is None:
-                return json.dumps("iterdone")
+                return ""
             else:
                 for x in userList:
                     if me.viewer == x.token:
