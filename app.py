@@ -1,6 +1,5 @@
 import random
-
-from flask import Flask, render_template, request, jsonify, redirect, session
+from flask import Flask, render_template, request, jsonify, redirect, session, json
 import requests
 
 class User:
@@ -9,6 +8,7 @@ class User:
         self.token = token
         self.photo = photo
         self.secret = None
+        self.viewer = None
 
 redirect_uri = "http://127.0.0.1:8000/userAuth" # this is the address of the page on this app
 
@@ -34,6 +34,23 @@ def hello_world():
 def add_secretariat():
     return render_template('add_secretariat.html')
 
+@app.route('/edit_secretariat', methods=['GET', 'POST'])
+def edit_secretariat():
+    fh = open("secretariats.txt", 'r')
+
+    lines = fh.readlines()
+    ids = []
+
+    for line in lines:
+        aux = line.split(': ')
+        if aux[0] == 'id':
+            print(aux[0])
+            print(aux[1])
+            ids.append(aux[1])
+
+    fh.close()
+    return render_template('edit_secretariat.html', ids=ids)
+
 @app.route('/canteen')
 def canteen():
     return render_template('canteen.html')
@@ -55,10 +72,14 @@ def readsecret():
         #print("sel: " + selSecret + "  type:  " + str(type(selSecret)))
         friend = None
 
+        #procura o segredo na lista de utilizadores
         for x in userList:
             if x.secret == int(selSecret):
                 #print("x.secret: " + str(x.secret) + "  type:  " + str(type(x.secret)))
                 friend = x
+                # atualiza a estrutura da outra pessoa com o token de quem procurou pelo segredo, para ela poder
+                # ver a informação
+                friend.viewer = session.get('token')
                 return render_template('showUser.html', name=friend.name, photo=friend.photo)
 
         return "Secret not found"
@@ -66,23 +87,46 @@ def readsecret():
     else:
         return render_template('readsecret.html')
 
-@app.route('/getsecret')
+@app.route('/getsecret', methods=['GET', 'POST'])
 def getsecret():
-    if session.get('token') is None:
-        redPage = fenixLoginpage % (client_id, redirect_uri)
-        # the app redirects the user to the FENIX login page
-        return redirect(redPage)
-    else:
-        secret = random.randint(1, 10000000)
+    if request.method == 'GET':
+        if session.get('token') is None:
+            redPage = fenixLoginpage % (client_id, redirect_uri)
+            # the app redirects the user to the FENIX login page
+            return redirect(redPage)
+        else:
+            secret = random.randint(1, 10000000)
 
-        for x in userList:
-            if x.token == session.get('token'):
-                x.secret = secret
-                break
+            for x in userList:
+                if x.token == session.get('token'):
+                    x.secret = secret
+                    break
 
-        return render_template('getsecret.html', secret=secret)
+            return render_template('getsecret.html', secret=secret)
+    elif request.method == 'POST':
+        if session.get('token') is None:
+            redPage = fenixLoginpage % (client_id, redirect_uri)
+            # the app redirects the user to the FENIX login page
+            return redirect(redPage)
+        else:
+            me = None
+            for x in userList:
+                if x.token == session.get('token'):
+                    me = x
+                    break
 
-@app.route('/private')
+            if me.viewer is None:
+                return json.dumps("iterdone")
+            else:
+                for x in userList:
+                    if me.viewer == x.token:
+                        print(str(me.name))
+                        #reset secret and viewer
+                        me.secret = None
+                        me.viewer = None
+                        return render_template("showUser.html", name = x.name, photo = x.photo )
+
+@app.route('/login')
 def private_page():
     #this page can only be accessed by a authenticated username
 
@@ -156,6 +200,7 @@ def userAuthenticated():
 
         #now the user has done the login
         return jsonify(r_info)
+
         #we show the returned infomration
         #but we could redirect the user to the private page
         #return redirect('/private') #comment the return jsonify....

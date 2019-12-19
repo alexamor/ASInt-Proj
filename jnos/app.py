@@ -8,6 +8,7 @@ import requests
 #to get the following value go to:
 # FENIX -> Pessoal - Gerir Aplicações -> criar
 #https://fenixedu.org/dev/tutorials/use-fenixedu-api-in-your-application/ (Step1)
+from json2html import json2html
 
 redirect_uri = "http://127.0.0.1:8000/userAuth" # this is the address of the page on this app
 
@@ -84,7 +85,7 @@ def userAuthenticated():
         userToken = r_token['access_token']
 
         #now the user has done the login
-        return jsonify(r_info)
+        return json2html.convert(jsonify(r_info))
         #we show the returned infomration
         #but we could redirect the user to the private page
         #return redirect('/private') #comment the return jsonify....
