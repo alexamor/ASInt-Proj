@@ -65,3 +65,73 @@ Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:52:52
 Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:53:12.630300
 Type: Add secretariat:  id: -:  time: 2019-12-19 18:53:29.716158
 Type: POST Request microservice secretariats:  id: -:  time: 2019-12-19 18:53:35.815037
+Type: Add secretariat:  id: -:  time: 2019-12-20 14:44:42.507012
+Type: Edit secretariat:  id: -:  time: 2019-12-20 14:44:44.915729
+Type: Access main page:  id: -:  time: 2019-12-20 15:01:49.936247
+Type: Add secretariat:  id: -:  time: 2019-12-20 15:01:53.040411
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:02:47.125950
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:03:02.253133
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:04:25.343163
+Type: Access main page:  id: -:  time: 2019-12-20 15:04:31.076403
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:04:33.001414
+Type: Access main page:  id: -:  time: 2019-12-20 15:05:38.192043
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:05:39.854590
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:05:58.858109
+Type: Access main page:  id: -:  time: 2019-12-20 15:06:16.802439
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:06:17.926501
+Type: Access main page:  id: -:  time: 2019-12-20 15:06:54.084883
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:06:56.354876
+Type: Access main page:  id: -:  time: 2019-12-20 15:07:56.245953
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:07:59.901536
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:08:09.362050
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:08:15.985368
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:10:42.046359
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:10:52.009194
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:11:35.255153
+Type: Access main page:  id: -:  time: 2019-12-20 15:12:17.635067
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:12:18.895024
+Type: Access main page:  id: -:  time: 2019-12-20 15:12:44.402190
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:12:45.631597
+Type: Access main page:  id: -:  time: 2019-12-20 15:13:05.348286
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:13:06.487401
+Type: Access main page:  id: -:  time: 2019-12-20 15:13:25.388204
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:13:26.499805
+Type: Access main page:  id: -:  time: 2019-12-20 15:14:40.013182
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:14:41.518028
+Type: Access main page:  id: -:  time: 2019-12-20 15:14:59.609264
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:15:00.877307
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:16:25.101771
+Type: Access main page:  id: -:  time: 2019-12-20 15:17:14.776814
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:17:15.862738
+Type: Access main page:  id: -:  time: 2019-12-20 15:17:35.111921
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:17:36.877771
+Type: Access main page:  id: -:  time: 2019-12-20 15:18:23.001232
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:18:24.527454
+Type: Access main page:  id: -:  time: 2019-12-20 15:18:47.736204
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:18:59.123019
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:19:14.505129
+Type: Access main page:  id: -:  time: 2019-12-20 15:20:07.085165
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:20:08.449469
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:20:18.686768
+Type: Access main page:  id: -:  time: 2019-12-20 15:20:40.543033
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:20:42.073609
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 15:21:02.380463
+Type: Access main page:  id: -:  time: 2019-12-20 15:23:19.963776
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:05.820772
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:10.481604
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:14.150442
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:30.500929
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:38.094655
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:41.117535
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:47.428327
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:48.834641
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:49.433928
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 15:24:52.597241
+Type: Access main page:  id: -:  time: 2019-12-20 16:13:59.867519
+Type: Add secretariat:  id: -:  time: 2019-12-20 16:14:21.442936
+Type: Edit secretariat:  id: -:  time: 2019-12-20 16:14:24.409638
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:15:13.106607
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:15:20.110627
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:15:41.266592
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:16:07.090449
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:16:13.528926

@@ -36,6 +36,14 @@ def hello_world():
     addLog("Access main page", "-")
     return render_template('main.html')
 
+######## ADMIN - MAIN PAGE ##########
+
+@app.route('/admin')
+def admin():
+    return render_template("admin.html")
+
+######## ADMIN - SHOW LOGS ##########
+
 @app.route('/logs')
 def showLogs():
     fh = open('logs.txt', 'r')
@@ -54,10 +62,15 @@ def showLogs():
     return json2html.convert(json.dumps(auxList))
     #return render_template('logs.html', logs = lines)
 
+
+######## ADMIN - ADD A SECRETARIAT ##########
+
 @app.route('/add_secretariat')
 def add_secretariat():
     addLog("Add secretariat", "-")
     return render_template('add_secretariat.html')
+
+######## ADMIN - EDIT A SECRETARIAT ##########
 
 @app.route('/edit_secretariat', methods=['GET', 'POST'])
 def edit_secretariat():
@@ -85,6 +98,12 @@ def canteen():
 @app.route('/rooms')
 def rooms():
     return render_template('rooms.html')
+
+##### MOBILE APP - MAIN #########
+
+@app.route('/mobile')
+def mobile():
+    return render_template("mobile.html")
 
 @app.route('/qr')
 def qr():
@@ -251,19 +270,9 @@ def userAuthenticated():
     else:
         return 'oops'
 
-@app.route('/admin')
-def admin():
-    #i = 0
-    for x in userList:
-        if x.token == session.get('token'):
-            istid = x.name
-            break
-        #i += 1
-
-    #istid = loginName[i]
-    return render_template("appPage.html", username=istid)
 
 
+# função invocada que adiciona um log cada vez que há um acesso a uma página
 def addLog(type, id):
     fh = open("logs.txt", 'a')
     auxString = "Type: " + type + ":  id: " + id + ":  time: " + str(datetime.now()) + "\n"

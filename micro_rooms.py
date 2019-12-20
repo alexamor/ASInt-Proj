@@ -44,6 +44,19 @@ def get_fenix():
     # imprimir os dados
     data = r.json()
 
+    print(data)
+    if('parentSpace'in data.keys()):
+        print("\n\nteste:" + data['parentSpace']['id'])
+
+        buildingDataURL = "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/spaces/" + str(data['parentSpace']['id'])
+        buildingData = requests.get(buildingDataURL).json()
+        print(buildingData)
+        if 'parentSpace' in buildingData.keys():
+            data['parentSpace']['id'] = buildingData['parentSpace']['id']
+            data['parentSpace']['name'] = buildingData['parentSpace']['name']
+            data['parentSpace']['type'] = buildingData['parentSpace']['type']
+
+
     # selRoom = Room(data['topLevelSpace']['name'])
     #
     # for l in data['events']:
