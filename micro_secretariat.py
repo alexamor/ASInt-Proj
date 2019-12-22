@@ -128,13 +128,14 @@ def get_secretariat():
                     print(location)
                 elif strings[0] == 'opening hours':
                     open_hours = strings[1].rstrip('\n')
+                    found = False
                     print(open_hours)
         fh.close()
 
-        if found:
+        if name != '':
             return jsonify(Name=name,Description=description, Location=location, OpeningHours=open_hours)
         else:
-            return jsonify(error='missing')
+            return jsonify(error='Secretariat not found!')
 
 
     return 'OK'

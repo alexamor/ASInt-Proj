@@ -135,3 +135,526 @@ Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:1
 Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:15:41.266592
 Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:16:07.090449
 Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-20 16:16:13.528926
+Type: Access main page:  id: -:  time: 2019-12-20 16:20:27.587119
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 16:20:29.795575
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 16:20:43.455201
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 16:20:58.617133
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-20 16:21:41.180118
+Type: Access main page:  id: -:  time: 2019-12-22 21:45:37.009675
+Type: Access main page:  id: -:  time: 2019-12-22 21:48:43.418947
+Type: Access main page:  id: -:  time: 2019-12-22 21:48:44.017356
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:48:44.859909
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 21:48:47.786820
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 21:48:52.454736
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 21:48:59.434449
+Type: Access main page:  id: -:  time: 2019-12-22 21:50:16.079092
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 21:50:32.775617
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 21:50:38.762958
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 21:50:45.366086
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:50:48.692182
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:50:51.308961
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:50:55.819541
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:50:58.680143
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:51:01.454565
+Type: Access main page:  id: -:  time: 2019-12-22 21:51:21.514454
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:51:22.807045
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:51:26.689424
+Type: Access main page:  id: -:  time: 2019-12-22 21:54:20.753561
+Type: Access main page:  id: -:  time: 2019-12-22 21:54:27.694376
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:54:29.376970
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:54:32.162868
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:54:34.343946
+Type: Access main page:  id: -:  time: 2019-12-22 21:55:08.286916
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:55:11.229320
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:55:13.883675
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:55:16.495076
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:55:20.879586
+Type: Add secretariat:  id: -:  time: 2019-12-22 21:56:38.599563
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-22 21:57:37.858243
+Type: Access main page:  id: -:  time: 2019-12-22 21:57:44.333137
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:57:46.650968
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:57:50.937204
+Type: Edit secretariat:  id: -:  time: 2019-12-22 21:57:57.450979
+Type: POST Request microservice secretariats:  id: -:  time: 2019-12-22 21:58:29.613341
+Type: Access main page:  id: -:  time: 2019-12-22 21:58:34.834566
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 21:58:36.402305
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:05.725981
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:21.944634
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:22.939638
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:23.936842
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:24.934430
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:25.938548
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:26.935558
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:27.941009
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:28.934017
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:29.933618
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:30.933489
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:31.940265
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:32.933439
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:33.934543
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:34.938503
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:35.936968
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:36.939215
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:37.939987
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:38.939084
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:39.936170
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:40.131052
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:40.933297
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:41.938753
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:42.939109
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:43.939047
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:44.937060
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:45.937090
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:46.949613
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:47.940966
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:48.945039
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:49.936291
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:50.939435
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:51.932558
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:52.937401
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:53.939423
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:54.933456
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:55.941595
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:56.935442
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:57.934712
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:58.933936
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 21:59:59.932948
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:00.932811
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:01.932673
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:02.934079
+Type: Read secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:03.559939
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:03.938035
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:04.933791
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:05.938877
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:06.935917
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:07.936313
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:08.951813
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:00:09.945696
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:03:59.619105
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:03:59.856138
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:03:59.891563
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:03:59.943422
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:00.173840
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:00.204721
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:00.792041
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:00.828511
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:00.872219
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.093258
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.146115
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.188999
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.710107
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.714061
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.734044
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.763928
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.778889
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:01.805815
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.023307
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.027298
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.090163
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.117057
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.336938
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.340917
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.349929
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.380815
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.401757
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.427687
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.649581
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.653569
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.663541
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.691465
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.713409
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.740113
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.963930
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.968919
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:02.978889
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:03.003824
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:03.025764
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:03.052692
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:03.277284
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:03.284230
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:03.292209
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:04:03.315148
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:26.844887
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:27.101579
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:27.202723
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:27.420322
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:27.743324
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:27.853992
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:28.132875
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:28.353297
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:28.370117
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:28.490832
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:28.704004
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:28.972055
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:29.017899
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:29.414999
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:29.635992
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:29.667940
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:29.727785
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:29.901962
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:30.253992
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:30.344717
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:30.524745
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:30.606563
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:31.112436
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:31.174302
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:31.224136
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:31.447085
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:31.504930
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.034463
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.097369
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.148198
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.491460
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.672742
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.716708
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.742637
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.766574
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.806468
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.958061
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:32.987983
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.032862
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.061815
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.084762
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.122656
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.270227
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.303142
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.346025
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.374947
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.398887
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.434496
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.583159
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.615039
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.658924
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.689840
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.712823
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.747714
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.896289
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.927849
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:33.971731
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.002551
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.029479
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.060400
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.208057
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.240151
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.286992
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.329961
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.345920
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.372881
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.520513
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.553425
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.599302
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.642223
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.660176
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.686071
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.832712
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.865626
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.910133
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.955015
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.970971
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:34.996936
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.147498
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.176421
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.223298
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.267180
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.282139
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.309578
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.460212
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.489130
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.536002
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:05:35.582879
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:41.262118
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:41.530727
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:41.643771
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:41.815836
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:41.846789
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.134152
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.260505
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.443031
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.452965
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.470918
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.493856
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.571688
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.635056
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.755307
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.766249
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.783203
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.807137
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:06:42.882963
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:06:58.594277
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:07:18.306969
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:08:21.746883
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:08:21.812747
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:08:22.575860
+Type: GET Request microservice secretariats:  id: -:  time: 2019-12-22 22:08:22.834555
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:54.318914
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:54.364063
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:54.411969
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:54.647676
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:54.921828
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:54.981670
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:55.608289
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:55.801222
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:55.872032
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:55.902958
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:56.043347
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:56.105181
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:56.886211
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:56.994326
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:57.133138
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:57.818854
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:57.922993
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:58.028367
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:58.326036
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:58.678550
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:58.753540
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:58.785419
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:58.933766
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:59.472279
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:59.490236
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:59.573051
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:08:59.681968
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:00.196753
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:00.394810
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:00.704038
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:00.735953
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:00.743932
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:00.923269
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:00.987128
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:01.638435
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:01.730788
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:01.739764
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:02.048850
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:02.195250
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:02.234097
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:02.388557
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:02.616553
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:02.641439
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:02.828586
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:03.219068
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:03.222062
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:03.250985
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:03.503633
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:04.018590
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:04.112688
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:04.244049
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:04.667347
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:04.757728
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:04.949510
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:05.217934
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:05.566700
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:05.597620
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.146036
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.332539
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.346503
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.368444
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.469974
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.479984
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.730439
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.941962
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:06.950939
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:07.128482
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:07.131473
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:07.298902
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:07.464274
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:07.481185
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:07.634690
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:07.778444
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:07.853663
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.042031
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.144075
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.170000
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.341876
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.359787
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.529574
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.638873
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.734622
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.786540
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.864531
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:08.937461
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.028621
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.217128
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.317462
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.398590
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.486984
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.577646
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.676172
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.816828
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:09.906071
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.004715
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.031603
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.102316
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.209846
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.354644
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.521897
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.592832
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.699940
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.804807
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:10.996562
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.188374
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.266461
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.397217
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.503764
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.541661
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.686361
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.822247
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.915073
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:11.941005
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:12.154308
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:12.191435
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:12.283485
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:12.443616
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:12.509458
+Type: GET Request microservice canteen:  id: -:  time: 2019-12-22 22:09:13.952416
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:27.831219
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:27.859113
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:28.073539
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:28.088496
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:28.108442
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:28.120410
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:28.977905
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:28.988876
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:29.032728
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:29.224035
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:30.445501
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:30.668614
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.049973
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.061940
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.295801
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.382131
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.490407
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.613120
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.614082
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.629042
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.789614
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:31.908300
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.040762
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.162437
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.176396
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.241258
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.324002
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.451251
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.616058
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.756926
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.782822
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.797824
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.871585
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:32.989271
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.156224
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.284260
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.325195
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.355149
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.446539
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.573158
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.687227
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.843172
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.870101
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:33.893375
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:34.015348
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:34.081206
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:34.226472
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:34.352844
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:34.367804
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:34.430116
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:09:34.496735
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:12:04.788589
+Type: Access main page:  id: -:  time: 2019-12-22 22:12:37.504359
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:12:50.023598
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:13:44.297134
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:15.446855
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:21.953104
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:22.955091
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:23.950899
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:24.950129
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:25.952722
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:26.952378
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:27.952938
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:28.983712
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:29.958108
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:30.971434
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:31.957693
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:32.955938
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:33.947984
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:34.948426
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:35.949102
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:36.948675
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:37.957996
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:38.963034
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:39.960172
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:40.958684
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:41.959678
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:42.961006
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:43.948303
+Type: login Fenix:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:44.360475
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:44.953918
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:45.950808
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:46.953429
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:47.952392
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:48.952158
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:49.947649
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:50.947921
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:51.949055
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:52.949047
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:53.948717
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:54.952771
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:55.953443
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:56.949164
+Type: Read secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:57.342421
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:57.948446
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:14:58.953854
+Type: get secret:  id: Sofia Alexandra Carlos Salgueiro:  time: 2019-12-22 22:15:02.486759
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:10.501855
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:10.784366
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:11.033668
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:11.168125
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:11.360030
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:11.454219
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:11.848765
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:11.957472
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:12.235729
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:12.294572
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:12.532973
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:12.718885
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:12.882121
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:13.226423
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:13.396364
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:13.453212
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:13.769367
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.027676
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.299951
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.380384
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.673907
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.922762
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.941225
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.941225
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.963166
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:14.979123
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:15.564326
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:15.618184
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:15.657074
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:15.660106
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:15.677054
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:15.678018
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.123828
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.222898
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.310642
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.310642
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.375982
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.386954
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.771421
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.825279
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:16.914043
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.008785
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.021752
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.031727
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.451873
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.452868
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.561665
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.630945
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.643946
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:17.693772
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:18.019938
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:18.088716
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:18.163968
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:18.203858
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:18.225799
+Type: GET Request microservice rooms:  id: -:  time: 2019-12-22 22:15:18.315080
